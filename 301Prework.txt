@@ -12,4 +12,4 @@ XXX  Setup Your Reading Notes Repo
      Review Professional Etiquette
      Explore Behavioral Interview Questions
      Practice your Professional Pitch
-     Update Your Resume
+XXX  Update Your Resume
