@@ -5,7 +5,7 @@ XXX  Learn ES6 Classes in JavaScript
      Read 01 - Introduction to React and Components
 XXX  Practice with CSS Diner
      Practice with Chocolate Pizza
-     Prepare for building your own portfolio
+XXX  Prepare for building your own portfolio
 XXX  Setup Your Accounts
 XXX  Setup Your Reading Notes Repo
      Career Coaching Status Report
