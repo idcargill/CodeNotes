@@ -1,0 +1,19 @@
+1. What is React?
+    A user interface Library.
+
+2. What is a component?
+    Piece of code that controls a User interface element. 
+    A class or function of code, that can manage state. 
+
+3. What is the dataflow of React?
+    One way dataflow, passed down to components. 
+
+4. How do we make a React element a DOM element?
+    By passing components through ReactDom.
+
+5. React is a User Interface Library.
+
+6. Which direction does data flow in React?
+    Data flows down one way to lower components. 
+
+7. Every component manages its own State.

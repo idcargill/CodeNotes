@@ -48,6 +48,8 @@ class Animal {
 		this.isWalking = true;
 	}
 
+	play = () => console.log('playing')
+
 	eat() {
 		this.isEating = true;
 	}
@@ -67,12 +69,38 @@ class Dog extends Animal {
 let rosie = new Dog('Rosie', 3, 'short');
 let frank = new Animal('Frank', 10);
 
-rosie.walk();
-rosie.eat();
-rosie.speak();
+// rosie.walk();
+// rosie.eat();
+// rosie.speak();
 
-console.log(rosie);
+// console.log(rosie);
 
-frank.eat();
+// frank.eat();
+// frank.play();
+// console.log(frank);
 
-console.log(frank);
+
+
+class Vehicle {
+	constructor(name, wheels) {
+		this.name = name;
+		this.wheels = wheels;
+	}
+
+	drive = () => 'Moving Forward';
+
+	stop = () => 'Stopping';
+}
+
+
+class Car extends Vehicle {
+	constructor(name) {
+		super(name, 4)
+	}
+	
+	
+}
+
+
+let bug = new Car('bug');
+console.log(bug)
