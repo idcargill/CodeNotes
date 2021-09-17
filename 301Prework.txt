@@ -1,5 +1,5 @@
 XXX  Dive into React  
-     Setup Your Laptop for Code 301
+XXX  Setup Your Laptop for Code 301 -Lenovo
 XXX  Learn ES6 Arrow Functions in JavaScript
 XXX  Learn ES6 Classes in JavaScript 
      Read 01 - Introduction to React and Components
@@ -13,3 +13,9 @@ XXX  Review Professional Etiquette
 XXX  Explore Behavioral Interview Questions
      Practice your Professional Pitch
 XXX  Update Your Resume
+
+
+Laptop Setup
+Chocolate Pizza
+PITCH
+Career Coaching Status Report
