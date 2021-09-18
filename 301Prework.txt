@@ -4,7 +4,7 @@ XXX  Learn ES6 Arrow Functions in JavaScript
 XXX  Learn ES6 Classes in JavaScript 
      Read 01 - Introduction to React and Components
 XXX  Practice with CSS Diner
-     Practice with Chocolate Pizza
+XXX  Practice with Chocolate Pizza
 XXX  Prepare for building your own portfolio
 XXX  Setup Your Accounts
 XXX  Setup Your Reading Notes Repo
@@ -15,7 +15,5 @@ XXX  Explore Behavioral Interview Questions
 XXX  Update Your Resume
 
 
-Laptop Setup
-Chocolate Pizza
 PITCH
 Career Coaching Status Report
