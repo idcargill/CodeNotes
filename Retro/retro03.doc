@@ -1,0 +1,18 @@
+Retro 3
+
+1. What went well, that I might forget if I don’t write down?
+	Keep state management at the highest level needed. If you are thinking of manipulating state in lower components, you’re doing it wrong.  
+
+2. What did I learn today?
+	Keep state high and manipulate in one place.  Don’t pass state and then try to alter it as props lower.  Re-render loops will destroy you. 
+
+3. What should I do differently next time?
+	Double check returns in smaller blocks of code. A typo threw off rendering and logic. 
+
+4. What still puzzles me, or what do I need to learn more about?
+	What’s the best way to manage state in a larger app?  Before you get into other state management tools.  
+
+
+
+Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+	Complete. 
