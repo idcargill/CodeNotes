@@ -1,0 +1,23 @@
+{
+  "name": "codenotes",
+  "version": "1.0.0",
+  "description": "## Code Notes & Examples",
+  "main": "node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idcargill/CodeNotes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idcargill/CodeNotes/issues"
+  },
+  "homepage": "https://github.com/idcargill/CodeNotes#readme",
+  "dependencies": {
+    "axios": "^0.22.0"
+  }
+}
