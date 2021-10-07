@@ -1,0 +1,17 @@
+Retro 6
+
+1. What went well, that I might forget if I don’t write down?
+  Double check image api documentation. 
+
+2. What did I learn today?
+  Api images load with url not a data feed. 
+
+3. What should I do differently next time?
+  Keep api state as high as possible in the component tree. Easier to start high than move up later. 
+
+4. What still puzzles me, or what do I need to learn more about?
+  Error handling with promieses/async.  
+  Over writing large batches of CSS.
+
+Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+Complete at this stage, more styling will be needed later. Raw functionality is working. 
