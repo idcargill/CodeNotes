@@ -10,14 +10,3 @@ RESTful verbs
     DELETE: Delete
 
 */
-
-/* Bootstrap className
-m-2
-p-1
-text-center
-
-Card.Group
-
-
-
-*/
