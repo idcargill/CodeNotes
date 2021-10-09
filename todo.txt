@@ -1,5 +1,0 @@
-font awesome
-SCSS - React
-google Fonts
-
-images
