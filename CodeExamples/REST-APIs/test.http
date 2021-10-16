@@ -1,0 +1,37 @@
+// Whiskey Distilleries
+# GET https://whiskyhunter.net/api/distilleries_info/
+
+# HEAD https://whiskyhunter.net/api/distilleries_info/
+OPTIONS https://whiskyhunter.net/api/distilleries_info/
+
+
+// Whiskey Auctions 
+# Get https://whiskyhunter.net/api/auctions_data
+
+
+
+
+### Status Codes
+
+# 100 Information
+# 200 Success
+#     200 OK
+#     201 Created
+#     204 No Content
+# 300 Redirections
+  # 301 Moved permanently
+  # 302 Found at other URL
+  # 307 Temporary redirect
+  # 308 Resume Incomplete
+
+# 400 Client Error
+  # 401 Unauthorized
+  # 403 Forbidden
+  # 404 Not Found
+  # 405 Method not allowed
+
+# 500 Server Error
+  # 500 Internal Server Error
+  # 502 Bad Gateway
+  # 503 Service Unavailable
+

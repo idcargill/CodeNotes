@@ -1,0 +1,25 @@
+// REST
+
+1. Client-server architecture
+
+2. Statlessness
+No client data is stored on the server between requests.
+
+3. Cacheability
+REST responses must be labled as cacheable or not for each request. 
+
+4. Layered System
+System designed so that the client can't know if it's connected to CDN.
+
+5. Code on Demand
+Servers are allowed to transfer executable code to client. 
+
+6. Uniform Interface
+  a. Resourece identification in requests
+    URI request must specify what it's looking for and format 
+  b. Resource manipulation through representations
+      Client can (w/ access) control what's stored on server
+  c. Self-descriptive messages
+    Response message must say what it is
+  d. Must use hypermedia as the engine of application
+    Client should be able to discover all resources available throught hyperlinks provided.

@@ -5,3 +5,27 @@ Erwin Duran - PDP team?
 Hongjian Yang
 Albert Chung
 Julia Qiu
+
+
+10-14 Anton
+
+graphql has 1 point of contact api
+.zh   shortcuts
+
+
+
+  Librarires Jquery/Lodash/D3
+  What's the push right now?
+
+  Design Patterns
+  Habits
+  
+
+  On my ToDo:
+  - api security / auth
+  - Data Structures / Algorithms 
+  - Design Patterns 
+
+  Git -active rebase
+  -Git branches / flow
+  - How do you work on /submit a merge request
