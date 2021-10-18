@@ -1,3 +1,6 @@
+// REST Client vsCode extension
+
+
 // Whiskey Distilleries
 # GET https://whiskyhunter.net/api/distilleries_info/
 
