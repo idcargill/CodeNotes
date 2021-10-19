@@ -5,11 +5,16 @@
 # GET https://whiskyhunter.net/api/distilleries_info/
 
 # HEAD https://whiskyhunter.net/api/distilleries_info/
-OPTIONS https://whiskyhunter.net/api/distilleries_info/
+# OPTIONS https://whiskyhunter.net/api/distilleries_info/
 
 
 // Whiskey Auctions 
 # Get https://whiskyhunter.net/api/auctions_data
+
+# get https://pokeapi.co/api/v2/pokemon/ditto
+
+get www.thecocktaildb.com/api/json/v1/1/search.php?s=oldfashion
+# OPTIONS www.thecocktaildb.com/api/json/v1/1/search.php?
 
 
 
