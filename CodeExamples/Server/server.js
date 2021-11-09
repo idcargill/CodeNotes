@@ -4,13 +4,9 @@ express
 cors
 dotenv
 
-
-
 root
   -frontend
   -backend
-
-
 
 */
 
