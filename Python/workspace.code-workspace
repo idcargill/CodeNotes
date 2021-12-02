@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../trulia/app-trulia-web"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "/usr/bin/python"
+	}
+}

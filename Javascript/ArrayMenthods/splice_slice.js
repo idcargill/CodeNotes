@@ -4,7 +4,7 @@
 
 let text = "The cat is hungry and ate the shark.";
 
-let slicedText = text.slice(0, 10);
+let slicedText = text.slice(0, 4);
 console.log(slicedText, "\n", text);
 
 let fromEnd = text.slice(-6);

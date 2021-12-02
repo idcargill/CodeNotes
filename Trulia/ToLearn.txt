@@ -1,0 +1,39 @@
+MongoDB
+Mongoose
+GraphQL
+Oauth
+Jest / Testing
+SocketIO
+
+TRULIA
+  GraphQL
+  Apollo
+  Typescript
+
+
+
+Git
+  - Rebase (interactive)
+
+SASS
+
+
+Python ==========
+
+
+
+
+
+
+DataStructures ======
+
+hash table
+stack
+queue
+linked list
+array
+
+
+
+REGEX:
+pig latin

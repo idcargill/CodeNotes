@@ -1,18 +1,8 @@
-Puru Guna -Lead
-Anton Len - 
-Angela Scott - Testing
-Erwin Duran - PDP team? 
-Hongjian Yang
-Albert Chung
-Julia Qiu
 
 
 10-14 Anton
-
 graphql has 1 point of contact api
 .zh   shortcuts
-
-
 
   Librarires Jquery/Lodash/D3
   What's the push right now?
@@ -29,3 +19,13 @@ graphql has 1 point of contact api
   Git -active rebase
   -Git branches / flow
   - How do you work on /submit a merge request
+
+
+11-15-21
+
+Setup/installation Questions:
+- Global Install Yarn? 
+- Cypress   (global?)
+- Docker
+
+- oh my Zsh ? 
