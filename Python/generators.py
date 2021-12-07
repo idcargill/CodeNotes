@@ -9,6 +9,7 @@ Yield remembers the state of the function after it was called.
 StopIteration will end iteration
 '''
 
+
 def countdown():
   i=5
   while i > 0:
@@ -25,10 +26,11 @@ def infinite_sequence():
     yield num
     num += 1
 
-generated = infinite_sequence()
-print(next(generated))
-print(next(generated))
-print(next(generated))
+if __name__ == '__main__':
+  generated = infinite_sequence()
+  print(next(generated))
+  print(next(generated))
+  print(next(generated))
 
 
 

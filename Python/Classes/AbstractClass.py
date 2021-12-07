@@ -27,6 +27,6 @@ class Square(GraphicShape):
 
 # g = GraphicShape() # Cannot instantiate an abstract class
 
-
-c = Circle(10)      # Must overwrite abstractmethod
-print(c.calcArea())  
+if __name__ == '__main__':
+  c = Circle(10)      # Must overwrite abstractmethod
+  print(c.calcArea())  

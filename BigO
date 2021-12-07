@@ -1,0 +1,112 @@
+TIME BASED
+n = loop1
+
+O(n) Linear: one loop
+
+-----------
+n = loop1
+a = loop2 (not nested)
+
+O(n + a)
+
+--------------
+Nested loop
+n = loop1
+  a = loop2
+
+O(n * a)
+
+O(n^2) Exponential Growth
+
+
+
+
+MEMORY / SPACE
+
+n = loop1
+
+for (let i=0; i<data.length; i++) {
+  console.log(i)    // No creation..no space
+  out[i] = data[i];   //New memory (same size as input element)
+}
+
+O(1)  constant, not creating anything for MEMORY
+
+O(n) for new item creation
+
+
+
+O = function or algorithm
+n = represents number of elements in function
+
+O(1)        Constant Time  static same for any input
+O(log n)    binary search / divide and conqure
+O(n)        Linear: 1 loop. Directly connected with nested
+O(n log n)  merge search
+O(n^2)      Exponential nested loops
+O(infinity) flipping a coin (could take forever)
+
+
+
+linear time complexity      O(n)  'big of of N'  or "oh of n"
+constant time complexity    O(1)
+quadratic time complexity   O(n^2)
+
+a , b = constants
+T = an+b
+
+1. Find fastest growing term
+
+2. Take out the coefficient
+    T = n
+
+
+Add up Big O for each opperation
+def stupid_funcition(array):
+    total = 0   # O(1)
+    return total # O(1)
+    O(1) + O(1) == c1 + c2 = c3  (one constant)
+    T = O(1)
+________________________________________________
+
+def find_sum(arr):
+  total = 0  # O(1)
+  for each i in arr:
+    total += i  O(1) # repeated n times
+  return total # O(1)
+
+T = O(1) + n * O(1) + O(1) = c + n*c = O(n)
+
+________________________________________________
+
+array_2d = [[1,4,9],
+            [3,1,9],
+            [0,5,2]]
+
+ n columns and n rows = n^2
+ c = constant
+
+ def find_sum_2d(array_2d):
+    total = 0        # O(n)
+    for each row in array_2d:
+      for each i in row:
+        total += i   # O(1) repeated n^2
+    return total     # O(1)
+
+T = O(1) + n^2 x O(1) + O(1)
+=
+T = c + n^2 * c
+=
+T = n^2
+=
+O(n^2)   quadratic time
+________________________________________________
+
+Class Notes:
+time: O(n)   n is number of items
+space: O(1) no space change
+
+
+
+BIG O Space:
+
