@@ -2,3 +2,5 @@ test.js
 notes*
 /node_modules
 *.http
+.DS_Store
+*.DS_Store
