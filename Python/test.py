@@ -1,31 +1,22 @@
-class Parent:
-  def talk(self):
-    print(self.name)
+dice_rolled = [1, 5, 5, 4, 3, 1]
 
-  @staticmethod
-  def damn_kids():
-    print('Get off my lawn!')
+user_input = '11555'
+valid_entries = []
+string = ''
 
-class Child(Parent):
-  total_children = 0
+def validate_input(user_input, dice_rolled):
 
-  def __init__(self, name):
-    self.name = name
+  try:
+    user_choice = [int(i) for i in user_input]
 
-    Child.total_children += 1 
+    for i in user_choice:
+      user_count = user_choice.count(i)
+      dice_count = dice_rolled.count(i)
+      if user_count <= dice_count:
+        valid_entries.append(i)
+    return string.join([str(item) for item in valid_entries])
+  except Exception as e:
+    return 'Invalid input, try again'
 
-  @classmethod
-  def get_children_count(cls):
-    print(cls.total_children)
-  
-Frank = Child('Fluffy')
-Dude = Child('Stupid')
-
-Frank.talk()
-
-Daddy = Parent()
-print(Daddy)
-
-Daddy.damn_kids()
-
-Frank.get_children_count()
+x = validate_input(user_input, dice_rolled)
+print(x)

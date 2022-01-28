@@ -29,22 +29,26 @@ class LinkedList:
     self._size += 1
  
 
-  def includes(self):
-    pass
+  def includes(self, value):
+    current = self.head
+    while current:
+      if current.value == value:
+        return value
+      current = current.next
 
   def to_string(self):
     pass
 
 
+if __name__ == '__main__':
+  ll = LinkedList()
+  ll.insert('Frank')
+  ll.insert('Tom')
+  ll.insert('Cats')
 
-ll = LinkedList()
-ll.insert('Frank')
-ll.insert('Tom')
-ll.insert('Cats')
 
-
-print(ll.head.value)
-print(ll.head.next.value)
+  print(ll.head.value)
+  print(ll.head.next.value)
 
 # LL = []
 # LL.insert(n1)
