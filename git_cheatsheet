@@ -1,0 +1,128 @@
+git
+  commit -am '<message>'
+
+git log
+  --oneline -#
+  --graph --oneline --all --decorate
+
+git merge-base main <other branch> (returns where branches diverge)
+
+
+git stash
+  save <'something for reference'>
+  list 
+  apply (does not delete from stash)
+    apply stash@{#}
+  pop (removes from stash if no conflict)
+  pop stash@{#} 
+  drop stash@{#}
+  clear
+
+
+git reset
+  --soft (keeps changes in staging)
+  --mixed(default) (removes staged commits)
+  --hard (make a copy of a commit)
+
+  git reset --hard origin/main (copy remote repo)
+
+
+DELETE / PRUNE
+  git branch -d <branch name>
+  git branch -D <branch name>  (force delete)
+
+  git push --delete origin <remote branch>
+
+  git remote prune origin <remote branch>
+    --dry-run
+
+  git fetch --prune 
+
+TAGS:
+  # lightweight tag 
+  git tag <name of tag> <commit SHA> (HEAD by default)
+
+  # Annotated Tag (most common)
+  git tag -am <Detailed Message> <TagName> <SHA>
+
+  Tag List
+  git tag 
+    -l
+    -ln (shows message)
+  git tag -l <"v1*"> optional filter string 
+
+  Checkout Tag
+    git checkout -b <newBranch> <tagName>
+
+  Push TAGS
+  git push origin <tagName>
+
+  Delete Tag
+  git tag -d <tagName>  
+
+  git push --delete origin <tagName>
+
+  git fetch --tags (tags only)
+
+
+
+REBASE
+  git rebase main  (when on another branch / moves current branch onto main)
+  
+  git rebase
+    --continue
+    --skip
+    --abort
+
+    --onto <newBase> <upstream> <branch>
+          destination 
+
+
+Interactive Rebasing
+  pick,drop
+  reword, edit
+  squash, fixup
+  exec 
+
+git rebase -i master new_feature
+
+git rebase -i HEAD~3  (rebase/squash last 3 commits)
+
+PULL REBASE
+  (fetch from remote then rebase)
+  git pull --rebase 
+    --rebase=preserve    # preserve local merge commits
+    --rebase=Interactive
+
+Cherry pick
+  git cherry-pick <sha>   || <sha>...<sha>  (range)
+
+
+
+LOG 
+  git log
+    --patch -p           (/word search  n)     # list commits as patches (diffs)
+    -L 100,159:filename.txt   # lines of patches by line number
+
+BLAME
+  git blame <filename>
+
+  git blame -w filename.txt   # ignore white space
+
+  git blame -L line#/line# filename
+
+  git blame <SHA> <filename>
+
+
+BISECT  # find problems  (binary search between 2 SHAs)
+  git bisect start
+  git bisect bad <treeish> 
+  git bisect good <treeish>
+  git bisect reset 
+
+
+CREATE DIFF
+  git diff <sha>..<sha>  > outputFile.diff
+
+APPLY
+  git apply ~/fileLocation.diff

@@ -4,3 +4,4 @@ notes*
 *.http
 .DS_Store
 *.DS_Store
+*__pycache__/*

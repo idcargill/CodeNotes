@@ -13,7 +13,7 @@ employees = [
 ]
 
 # Challenge #1
-filtered_employees_one = [i['name'] for i in employees if i['seniority']>= 10]
+filtered_employees_one = [_['name'] for _ in employees if _['seniority']>= 10]
 
 if filtered_employees_one == ['John Conners', 'Bilbo Baggins', 'Darth Revan']:
     print('SUCCESS Test One')
