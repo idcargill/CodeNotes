@@ -1,37 +1,36 @@
 # Classes
-
-class Cat:
+class Animal:
   def __init__(self, name):
     self.name = name
-    self.color = 'grey'
+    self.legs = 4
+    self.tail = True
 
-  def speak(self):
-    print('My name is {0}, Meow! I am {1}'.format(self.name, self.color))
+class Cat(Animal):
+  def talk_cat(self):
+    print(f'{self.name}: meow!')
+  
 
-  def eat(self):
-    print('crunch crunch crunch')
-
-noni = Cat('Noni')
-
-noni.speak()
-
-
-
-# Inheritance
 class Kitten(Cat):
+  def __init__(self, name, weapons='claws'):
+    self.name = name
+    self.weapons = 'claws'
+
+
   def talk(self):
     print('I am a Kitten named {0}'.format(self.name))
     
-Tiger = Kitten('Fluffykins')
-Tiger.talk()
+
 
 
 
 # SUPER
-
 Buhabuli = Kitten('Buhabuil')
 
 
+print(Buhabuli.weapons)
 
-import sys 
-print(sys.version)
+Buhabuli.talk_cat()
+
+
+
+
